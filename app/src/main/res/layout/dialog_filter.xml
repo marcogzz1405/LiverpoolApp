@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="17dp"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Ordernar por"
+            android:textColor="@color/black"
+            android:textDirection="locale"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/b_predefinida"
+            style="@style/Buttons.PinkRounded"
+            android:background="@drawable/shape_pink_rounded"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:text="@string/predefinida"
+            android:tag="1"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/b_menor"
+            style="@style/Buttons.PinkRounded"
+            android:background="@drawable/shape_pink_rounded"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="16dp"
+            android:textAllCaps="false"
+            android:text="@string/menor_precio"
+            android:tag="2"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/b_mayor"
+            style="@style/Buttons.PinkRounded"
+            android:background="@drawable/shape_pink_rounded"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="16dp"
+            android:textAllCaps="false"
+            android:text="Mayor precio"
+            android:tag="3"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/b_filter"
+            style="@style/Buttons.PinkRounded"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_enable"
+            android:text="Filtrar"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

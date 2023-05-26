@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyLiverpoolApp</string>
+    <string name="txt_unknown_error">¡Lo sentimos! Por el momento, este servicio no está disponible. Favor de intentar más tarde.</string>
+    <string name="search_by_name">Buscar</string>
+    <string name="hint_search">Buscar</string>
+    <string name="predefinida">Predefinida</string>
+    <string name="menor_precio">Menor precio</string>
+</resources>
